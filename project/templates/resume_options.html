@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<html>
+<body>
+	{% load static %}
+	<link rel='stylesheet' type='text/css' href="{% static 'css/resume_options.css' %}">
+	<link rel='stylesheet' type='text/css' href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css" >
+	<div id='bg1'></div>
+	<h1 id='irb'>
+		INSTI RESUME BUILDER
+	</h1>
+<ul class="nav nav-pills navbar navbar-inverse" id='nav1'>
+  <li><a href='#' id='preview' >preview</a></li>
+  <li><a href='#' id='edit'  >edit</a></li>
+  <li><a href='#' id='save'>save</a></li>
+  <li><a href='#' id='pdf'>convert to pdf</a></li>
+  <li><a href='#' id='download'>download</a></li>
+  <li><a href='#' id='mail' >mail it</a></li>
+  <li><a href='#' id='help' >help</a></li>
+  <li><a href='#' id='feedback' >feedback</a></li>
+</ul>
+<ul class="nav nav-pills nav-stacked" id='nav2'>
+  <li class="active"><a href='http://127.0.0.1:8000/home/options_pd/' id='personal details' >personal details</a></li>
+  <li><a href='#' id='education'  >education</a></li>
+  <li><a href='#' id='qualifications'>qualifications</a></li>
+  <li><a href='#' id='intersts'>intersts</a></li>
+  <li><a href='#' id='projects'>projects</a></li>
+  <li><a href='#' id='curricular' >co-curricular &<br>extra-curricular<br>actvities</a></li>
+  <li><a href='#' id='internships' >internships</a></li>
+  <li><a href='#' id='references' >references</a></li>
+</ul>
+<form role="form" id='form1'>
+  <div class="form-group">
+    <label for="exampleInputFirstname">firstname</label>
+    <input type="firstname" class="form-control" id="exampleInputFirstname" placeholder="Enter firstname">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputLastname">lastname</label>
+    <input type="lastname" class="form-control" id="exampleInputLastname" placeholder="Enter lastname">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</body>
+</html>

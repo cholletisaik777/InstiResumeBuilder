@@ -1,0 +1,29 @@
+#bg1{
+	background-color:lightblue;
+	height:700px;
+	width:1300px;
+}
+#irb{
+	position:absolute;
+	left:390px;
+	top:0px;
+	color:white;
+}
+#but1{
+	position:absolute;
+	left:490px;
+	top:300px;
+	color:white;
+}
+#signin{
+	position:absolute;
+	left:1200px;
+	top:30px;
+	color:white;
+}
+#createact{
+	position:absolute;
+	left:1050px;
+	top:30px;
+	color:white;
+}
