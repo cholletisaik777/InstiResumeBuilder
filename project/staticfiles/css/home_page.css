@@ -1,12 +1,20 @@
 #bg1{
-	background-color:lightblue;
-	height:700px;
+	position:absolute;
+	left:0px;
+	top:140px;
+	background-color:#C8C8C8;
+	height:500px;
+	width:1300px;
+}
+#bg2{
+	background-color:black;
+	height:140px;
 	width:1300px;
 }
 #irb{
 	position:absolute;
 	left:390px;
-	top:0px;
+	top:30px;
 	color:white;
 }
 #but1{

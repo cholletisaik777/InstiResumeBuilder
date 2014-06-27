@@ -1,0 +1,38 @@
+#bg1{
+	background-color:black;
+	height:140px;
+	width:1300px;
+}
+#irb{
+	position:absolute;
+	left:390px;
+	top:0px;
+	color:white;
+}
+#nav1{
+	position:absolute;
+	margin-left:50px;
+	top:60px;
+	color:white;
+	font-size:35px;
+}
+#nav2{
+	position:absolute;
+	color:white;
+	font-size:20px;
+}
+#form1{
+	position:absolute;
+	top:150px;
+	left:350px;
+}
+#arr1{
+	position:absolute;
+	top:550px;
+	left:1200px;
+}
+#arr2{
+	position:absolute;
+	top:550px;
+	left:1100px;
+}

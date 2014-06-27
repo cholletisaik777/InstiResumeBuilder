@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<html>
+<body>
+	{% load static %}
+	<link rel='stylesheet' type='text/css' href="{% static 'css/options_coxco.css' %}">
+	<link rel='stylesheet' type='text/css' href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<div id='bg1'></div>
+	<h1 id='irb'>
+		INSTI RESUME BUILDER
+	</h1>
+<ul class="nav nav-pills navbar navbar-inverse" id='nav1'>
+  <li><a href='#' id='preview' >preview</a></li>
+  <li><a href='#' id='edit'  >edit</a></li>
+  <li><a href='#' id='save'>save</a></li>
+  <li><a href='#' id='pdf'>convert to pdf</a></li>
+  <li><a href='#' id='download'>download</a></li>
+  <li><a href='#' id='mail' >mail it</a></li>
+  <li><a href='#' id='help' >help</a></li>
+  <li><a href='#' id='feedback' >feedback</a></li>
+</ul>
+<ul class="nav nav-pills nav-stacked" id='nav2'>
+  <li><a href='http://127.0.0.1:8000/home/options_pd/' id='personal details' >personal details</a></li>
+  <li><a href='http://127.0.0.1:8000/home/options_ed' id='educations'  >education</a></li>
+  <li><a href='http://127.0.0.1:8000/home/options_qf' id='qualifications'>qualifications</a></li>
+  <li><a href='http://127.0.0.1:8000/home/options_in' id='intersts'>intersts</a></li>
+  <li><a href='http://127.0.0.1:8000/home/options_pr' id='projects'>projects</a></li>
+  <li class="active"><a href='http://127.0.0.1:8000/home/options_coxco' id='curricular' >co-curricular &<br>extra-curricular<br>actvities</a></li>
+  <li><a href='http://127.0.0.1:8000/home/options_inp' id='internships' >internships</a></li>
+  <li><a href='http://127.0.0.1:8000/home/options_ref' id='references' >references</a></li>
+</ul>
+<a href='http://127.0.0.1:8000/home/options_inp' id='arr1' class='btn btn-primary btn-lg active 'role='button' >&raquo;</a>
+<a href='http://127.0.0.1:8000/home/options_pr' id='arr2' class='btn btn-primary btn-lg active 'role='button' >&laquo;</a>
+<form role="form" id='form1'>
+  <div class="form-group">
+    <label for="exampleInputFirstname">co-curricular extra-curricular actvities</label>
+    <textarea rows='20' cols='80' type="text" class="form-control" id="coxco" placeholder="co-curricular extra-curricular actvities"></textarea>
+  </div>
+</form>
+</body>
+</html>
