@@ -1,14 +1,14 @@
 #bg1{
+	background-color:black;
+	height:140px;
+	width:1300px;
+}
+#bg2{
 	position:absolute;
 	left:0px;
 	top:140px;
 	background-color:#C8C8C8;
-	height:500px;
-	width:1300px;
-}
-#bg2{
-	background-color:black;
-	height:140px;
+	height:600px;
 	width:1300px;
 }
 #irb{
